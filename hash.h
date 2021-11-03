@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+#include "memsys.h"
+
 
 struct HashTable{
 	unsigned int capacity;
@@ -22,5 +24,7 @@ void addElement( struct memsys *memsys, struct HashTable *table, int addr );
 
 int getElement( struct memsys *memsys, struct HashTable *table, void*key );
 
-int hashAccuracy( struct memsys *memsys, struct HashTable *table );
+void freeTable( struct memsys *memsys, struct HashTable *table );
+
+int hashAccuracy(struct memsys *memsys, struct HashTable *table);
 
