@@ -99,6 +99,10 @@ int getElement( struct memsys *memsys, struct HashTable *table, void*key ){
 					return address;
 				}
 			}
+			else{
+				free(value);
+				return MEMNULL;
+			}
 
 			
 		}
@@ -113,6 +117,10 @@ int getElement( struct memsys *memsys, struct HashTable *table, void*key ){
 						return address;
 					}
 
+				}
+				else{
+					free(value);
+					return MEMNULL;
 				}
 			}
 	}
