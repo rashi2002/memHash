@@ -74,12 +74,14 @@ int getElement( struct memsys *memsys, struct HashTable *table, void*key ){
 	index = table->hash(key, table->capacity);
 	getval(memsys, &address, sizeof(int), table->data+ index*sizeof(int));
 
-	/*if(address==MEMNULL){
+	if(address==MEMNULL){
 		free(value);
 		return MEMNULL;
-	}*/
+	}
 
 	getval(memsys, value, table->width, address);
+
+
 	
 	if(table->compar(value, key)==0){
 		free(value);
@@ -97,6 +99,7 @@ int getElement( struct memsys *memsys, struct HashTable *table, void*key ){
 					return address;
 				}
 			}
+
 			
 		}
 			i=0;
