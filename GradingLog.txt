@@ -1,0 +1,67 @@
+Found hash.c
+Compiling
+Found hash.o
+Compilation succeeded
+################################################################################
+Compiling and linking gradeA5_createTable
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA5_createTable.c ~/Grading/Graders/memsys.c hash.o -o gradeA5_createTable 1> compile.out 2> compile.err":
+Found gradeA5_createTable
+Compilation succeeded
+================================================================================
+createTable passed
+################################################################################
+Compiling and linking gradeA5_addElement
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA5_addElement.c ~/Grading/Graders/memsys.c hash.o -o gradeA5_addElement 1> compile.out 2> compile.err":
+Found gradeA5_addElement
+Compilation succeeded
+================================================================================
+addElement passed
+================================================================================
+addElement passed
+================================================================================
+addElement passed
+================================================================================
+addElement passed
+================================================================================
+addElement passed
+################################################################################
+Compiling and linking gradeA5_getElement
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA5_getElement.c ~/Grading/Graders/memsys.c hash.o -o gradeA5_getElement 1> compile.out 2> compile.err":
+Found gradeA5_getElement
+Compilation succeeded
+================================================================================
+getElement passed
+================================================================================
+getElement passed
+================================================================================
+getElement passed
+================================================================================
+getElement passed
+================================================================================
+getElement passed
+################################################################################
+Compiling and linking gradeA5_freeTable
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA5_freeTable.c ~/Grading/Graders/memsys.c hash.o -o gradeA5_freeTable 1> compile.out 2> compile.err":
+Found gradeA5_freeTable
+Compilation succeeded
+================================================================================
+freeTable passed
+################################################################################
+Compiling and linking gradeA5_hashAccuracy
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA5_hashAccuracy.c ~/Grading/Graders/memsys.c hash.o -o gradeA5_hashAccuracy 1> compile.out 2> compile.err":
+Found gradeA5_hashAccuracy
+Compilation succeeded
+================================================================================
+hashAccuracy passed
+================================================================================
+hashAccuracy passed
+================================================================================
+hashAccuracy passed
+================================================================================
+hashAccuracy failed
+  '162'!='870'
+Found makefile
+Correct options
+Comments
+Indentation levels are: ['', '\t', '\t\t', '\t\t\t', '\t\t\t\t', '\t\t\t\t\t', '\t\t\t\t\t\t', '\t\t\t\t\t\t\t\t', '\t    ']
+Assignment submitted by Rashi Mathur <rashi@uoguelph.ca> at: Thu Nov 4 18:05:05 2021
